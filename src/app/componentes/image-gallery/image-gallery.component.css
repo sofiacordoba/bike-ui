@@ -1,0 +1,61 @@
+div .categorias {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  flex-direction: row;
+  border: 0;
+  width: 300px;
+}
+
+button:first-of-type {
+  background-color: #F566A2;
+}
+
+button:nth-of-type(2) {
+  background-color: #F678FF;
+}
+
+button:nth-of-type(3) {
+  background-color: #AF6CE6;
+}
+
+button:nth-of-type(4) {
+  background-color: #421CFF;
+}
+
+button:nth-of-type(5) {
+  background-color: #3657D1;
+}
+
+button:nth-of-type(6) {
+  background-color: purple;
+}
+
+.img {
+    margin: 20px 20px;
+    border: 4px solid #eee;
+    box-shadow: rgb(224, 199, 199) 1px 1px 8px 1px;
+    cursor: pointer;
+    transition: transform .3s;
+  }
+
+  .img:hover {
+    transform: scale(1.5);
+  }
+ 
+  li {
+    display: inline;
+  }
+  
+  ul {
+    justify-content: center;
+    padding: 0;
+    width: 1200px;
+    margin: auto;
+  }
+  

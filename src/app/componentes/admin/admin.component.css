@@ -1,0 +1,23 @@
+th:nth-of-type(1) {
+    background-color: #F678FF;
+  }
+
+th:nth-of-type(2) {
+    background-color: #AF6CE6;
+  }
+
+th:nth-of-type(3) {
+    background-color :#3657D1;
+  }
+  
+th:nth-of-type(4) {
+    background-color: purple;
+  }
+
+tr {
+    background-color: #ffffffbd;
+}
+
+.table-bordered, .table-bordered td , .table-bordered th {
+    border: 1px solid #2F465D;
+}

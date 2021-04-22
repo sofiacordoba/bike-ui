@@ -1,0 +1,10 @@
+
+.img-container {
+    height: 280px;
+    width: 380px;
+    background-size: contain;
+    top: 50%;
+    left: 38%;
+    background-repeat: no-repeat;
+    position: relative;
+  }

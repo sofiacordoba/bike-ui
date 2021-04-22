@@ -1,0 +1,21 @@
+
+    <nav><a href="#" class="activo"> Inicio</a> <a href="#" onclick="abrir()">Contacto</a></nav>
+    <header>
+            <h1>Welcome to <span>Globomatics Bikes</span></h1>
+    </header>
+    <div class="menu">
+    <h5 ><a [routerLink]="['/home']" style="color:#2114d5;">Cargar su garantia de bicicleta</a></h5>
+    <h5><a [routerLink]="['/admin']" style="color:#8b31c8;">Ver listado de garantias cargadas</a></h5>
+    <h5><a [routerLink]="['/gallery']" style="color:#049DD9;">Ver galeria de fotos</a> </h5>
+    </div>    
+
+
+<!--<app-admin></app-admin>
+
+<app-home></app-home>
+<app-image-gallery></app-image-gallery>
+<app-view-registration></app-view-registration>
+<app-about></app-about> 
+ -->
+
+<router-outlet></router-outlet>
